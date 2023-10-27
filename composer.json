@@ -1,0 +1,11 @@
+{
+    "require": {
+        "woocommerce/action-scheduler": "^3.6",
+        "automattic/jetpack-autoloader": "^2.12"
+    },
+    "config": {
+        "allow-plugins": {
+            "automattic/jetpack-autoloader": true
+        }
+    }
+}
