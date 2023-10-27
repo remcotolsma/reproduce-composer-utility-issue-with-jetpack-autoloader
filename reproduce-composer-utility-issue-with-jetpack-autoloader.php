@@ -3,7 +3,7 @@
  * Plugin Name: Reproduce Composer utility issue with Jetpack autoloader
  */
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload_packages.php';
 
 $action_scheduler_path = \Composer\InstalledVersions::getInstallPath( 'woocommerce/action-scheduler' );
 
